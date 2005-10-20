@@ -1,12 +1,12 @@
 Summary:	XF86DGA protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u XF86DGA i pomocnicze
 Name:		xorg-proto-xf86dgaproto
-Version:	2.0
+Version:	2.0.1
 Release:	0.02
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/xf86dgaproto-%{version}.tar.bz2
-# Source0-md5:	a0137326198c08d024ebf43cc786460d
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/xf86dgaproto-%{version}.tar.bz2
+# Source0-md5:	a853ac74324824f259ce536ad2a43eea
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
