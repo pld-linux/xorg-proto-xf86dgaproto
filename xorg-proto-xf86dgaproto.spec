@@ -1,5 +1,5 @@
 Summary:	XF86DGA protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 XF86DGA i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u XF86DGA i pomocnicze
 Name:		xorg-proto-xf86dgaproto
 Version:	2.0.2
 Release:	1
@@ -16,20 +16,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XF86DGA protocol and ancillary headers.
 
-%description -l pl
-Nag丑wki protoko硊 XF86DGA i pomocnicze.
+%description -l pl.UTF-8
+Nag艂贸wki protoko艂u XF86DGA i pomocnicze.
 
 %package devel
 Summary:	XF86DGA protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 XF86DGA i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u XF86DGA i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
 XF86DGA protocol and ancillary headers.
 
-%description devel -l pl
-Nag丑wki protoko硊 XF86DGA i pomocnicze.
+%description devel -l pl.UTF-8
+Nag艂贸wki protoko艂u XF86DGA i pomocnicze.
 
 %prep
 %setup -q -n xf86dgaproto-%{version}
