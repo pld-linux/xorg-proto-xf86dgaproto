@@ -1,12 +1,12 @@
-Summary:	XF86DGA protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu XF86DGA i pomocnicze
+Summary:	XF86DGA extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia XF86DGA
 Name:		xorg-proto-xf86dgaproto
-Version:	2.0.2
+Version:	2.0.3
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/xf86dgaproto-%{version}.tar.bz2
-# Source0-md5:	461aa291a23e8cf387b70f3efa71b05c
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/xf86dgaproto-%{version}.tar.bz2
+# Source0-md5:	42fdcebc66efac02ab4beec2b1b0ad6e
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -14,22 +14,22 @@ BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XF86DGA protocol and ancillary headers.
+XF86DGA extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu XF86DGA i pomocnicze.
+Nagłówki rozszerzenia XF86DGA.
 
 %package devel
-Summary:	XF86DGA protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu XF86DGA i pomocnicze
+Summary:	XF86DGA extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia XF86DGA
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-XF86DGA protocol and ancillary headers.
+XF86DGA extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu XF86DGA i pomocnicze.
+Nagłówki rozszerzenia XF86DGA.
 
 %prep
 %setup -q -n xf86dgaproto-%{version}
