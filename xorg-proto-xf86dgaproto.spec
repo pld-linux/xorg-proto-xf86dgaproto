@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	XF86DGA extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia XF86DGA
 Name:		xorg-proto-xf86dgaproto
 Version:	2.1
-Release:	3
+Release:	3.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/xf86dgaproto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/xf86dgaproto-%{version}.tar.bz2
 # Source0-md5:	a036dc2fcbf052ec10621fd48b68dbb1
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	xorg-util-util-macros >= 1.3
